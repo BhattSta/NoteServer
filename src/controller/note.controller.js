@@ -93,10 +93,13 @@ const deleteNote = catchAsync(async (req, res) => {
   );
 });
 
+const getDetails = catchAsync(async (req, res) => {});
+
 module.exports = {
   createNote,
   getNotes,
   getNote,
   editNote,
   deleteNote,
+  getDetails,
 };
